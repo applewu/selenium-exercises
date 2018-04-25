@@ -28,7 +28,7 @@ def create_new_mail(step):
 
 @step(u'输入当前用户的邮箱地址，作为收件人地址')
 def create_new_mail(step):
-    world.driver.find_element_by_class_name('nui-editableAddr-ipt').send_keys('wuziteng2006@163.com')
+    world.driver.find_element_by_class_name('nui-editableAddr-ipt').send_keys('hellotester@163.com')
 
 
 @step(u'输入邮件主题为(.*)')

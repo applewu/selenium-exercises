@@ -24,13 +24,13 @@ def access_index_page(step):
 @step(u'用户输入用户名(.*)')
 def enter_user_name(step, user_name):
     world.driver.switch_to.frame(world.driver.find_elements_by_tag_name('iframe')[0])
-    # world.driver.find_element_by_name('email').send_keys('wuziteng2006')
-    world.driver.find_element_by_name('email').send_keys('wuziteng2006')
+    # world.driver.find_element_by_name('email').send_keys('hellotester')
+    world.driver.find_element_by_name('email').send_keys('hellotester')
 
 @step(u'用户输入密码(.*)')
 def enter_password(step, pwd):
-    # world.driver.find_element_by_name('password').send_keys('Password01!')
-    world.driver.find_element_by_name('password').send_keys('Password01!')
+    # world.driver.find_element_by_name('password').send_keys('xxxxxxxxxxxx')
+    world.driver.find_element_by_name('password').send_keys('xxxxxxxxxxxx')
 
 @step(u'用户点击登录按钮')
 def click_login_btn(step):
